@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "sourceMap": true,
+      "alwaysStrict": true,
+      "rootDirs": [
+        "src"
+      ],
+      "baseUrl": "./",
+      "paths": {
+        "*": ["./src/*"]
+      },
+      // Experimental
+      "noImplicitThis": true
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }
